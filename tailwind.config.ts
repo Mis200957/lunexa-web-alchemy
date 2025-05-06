@@ -33,10 +33,19 @@ export default {
 					50: '#1E293B',
 					100: '#334155',
 				},
-				gold: {
-					DEFAULT: '#E6B31E',
-					50: '#F7E9B5',
-					100: '#F0D777',
+				purple: {
+					DEFAULT: '#8B5CF6',
+					50: '#EDE9FE',
+					100: '#DDD6FE',
+					200: '#C4B5FD',
+					300: '#A78BFA',
+					400: '#8B5CF6',
+					500: '#7C3AED',
+					600: '#6D28D9',
+					700: '#5B21B6',
+					800: '#4C1D95',
+					900: '#3A1D63',
+					950: '#2A1356',
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -100,8 +109,8 @@ export default {
 					'100%': { opacity: '1' }
 				},
 				'pulse-glow': {
-					'0%, 100%': { boxShadow: '0 0 10px 2px rgba(230, 179, 30, 0.2)' },
-					'50%': { boxShadow: '0 0 20px 5px rgba(230, 179, 30, 0.4)' }
+					'0%, 100%': { boxShadow: '0 0 10px 2px rgba(139, 92, 246, 0.2)' },
+					'50%': { boxShadow: '0 0 20px 5px rgba(139, 92, 246, 0.4)' }
 				}
 			},
 			animation: {

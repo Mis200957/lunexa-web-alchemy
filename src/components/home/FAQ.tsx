@@ -39,7 +39,7 @@ const FAQ = () => {
     <section className="section-padding" id="faq">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl mb-4">Frequently Asked <span className="text-gold">Questions</span></h2>
+          <h2 className="text-2xl md:text-4xl mb-4">Frequently Asked <span className="text-purple-400">Questions</span></h2>
           <p className="max-w-2xl mx-auto">
             Everything you need to know about working with us
           </p>
@@ -53,7 +53,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="glass-card border-0 overflow-hidden"
               >
-                <AccordionTrigger className="px-6 py-4 text-white hover:text-gold hover:no-underline">
+                <AccordionTrigger className="px-6 py-4 text-white hover:text-purple-400 hover:no-underline">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-white/70">

@@ -48,7 +48,7 @@ const Testimonials = () => {
     <section className="section-padding" id="testimonials">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-4xl mb-4">Client <span className="text-gold">Success Stories</span></h2>
+          <h2 className="text-2xl md:text-4xl mb-4">Client <span className="text-purple-400">Success Stories</span></h2>
           <p className="max-w-2xl mx-auto">
             Don't take our word for it – hear from the startups and businesses 
             we've helped transform their digital presence.
@@ -82,8 +82,8 @@ const Testimonials = () => {
                 </div>
               </div>
               <blockquote className="mb-4 italic text-white/80">"{testimonial.testimonial}"</blockquote>
-              <div className="bg-gold/10 rounded-lg p-3 text-sm border border-gold/30">
-                <span className="text-gold font-medium">Result:</span> {testimonial.result}
+              <div className="bg-purple-400/10 rounded-lg p-3 text-sm border border-purple-400/30">
+                <span className="text-purple-400 font-medium">Result:</span> {testimonial.result}
               </div>
             </div>
           ))}

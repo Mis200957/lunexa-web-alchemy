@@ -31,7 +31,7 @@ const plans = [
       "Analytics integration"
     ],
     cta: "Choose Pro",
-    ctaClass: "neumorphic-btn text-gold",
+    ctaClass: "neumorphic-btn text-purple-400",
     highlighted: true
   },
   {
@@ -59,7 +59,7 @@ const Pricing = () => {
     <section className="section-padding" id="pricing">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl mb-4">Transparent <span className="text-gold">Pricing</span></h2>
+          <h2 className="text-2xl md:text-4xl mb-4">Transparent <span className="text-purple-400">Pricing</span></h2>
           <p className="max-w-2xl mx-auto">
             Choose the perfect plan for your business needs with no hidden fees
           </p>
@@ -73,13 +73,13 @@ const Pricing = () => {
                 "glass-card p-8 flex flex-col h-full relative",
                 "animate-fade-in-up transition-all duration-300",
                 plan.highlighted ? 
-                  "border-gold/50 shadow-[0_0_20px_rgba(230,179,30,0.2)]" : 
+                  "border-purple-400/50 shadow-[0_0_20px_rgba(139,92,246,0.2)]" : 
                   "hover:border-white/20"
               )}
               style={{ animationDelay: `${0.2 * index}s` }}
             >
               {plan.highlighted && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gold text-navy px-4 py-1 rounded-full text-sm font-medium">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-purple-400 text-navy px-4 py-1 rounded-full text-sm font-medium">
                   Recommended
                 </div>
               )}
@@ -92,7 +92,7 @@ const Pricing = () => {
                 <ul className="space-y-3">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-start">
-                      <Check size={18} className="text-gold mr-2 mt-0.5 flex-shrink-0" />
+                      <Check size={18} className="text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
                       <span className="text-white/70 text-sm">{feature}</span>
                     </li>
                   ))}

@@ -21,7 +21,7 @@ const FeaturedIn = () => {
             <div 
               key={company} 
               className={cn(
-                "text-2xl md:text-3xl font-light text-white/30 hover:text-gold transition-colors duration-300",
+                "text-2xl md:text-3xl font-light text-white/30 hover:text-purple-400 transition-colors duration-300",
                 "animate-fade-in"
               )}
               style={{ animationDelay: `${0.1 * index}s` }}

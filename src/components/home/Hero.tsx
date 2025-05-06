@@ -11,7 +11,7 @@ const Hero = () => {
           className="text-3xl md:text-5xl lg:text-6xl mb-6 animate-fade-in-up"
           style={{ animationDelay: '0.1s' }}
         >
-          Crafting <span className="text-gold">Digital Experiences</span> That Elevate Brands
+          Crafting <span className="text-purple-400">Digital Experiences</span> That Elevate Brands
         </h1>
         <p 
           className="text-lg md:text-xl mb-10 opacity-70 max-w-2xl mx-auto animate-fade-in-up"
@@ -23,7 +23,7 @@ const Hero = () => {
         <Link 
           to="/contact" 
           className={cn(
-            "neumorphic-btn text-gold text-lg inline-block animate-fade-in-up"
+            "neumorphic-btn text-purple-400 text-lg inline-block animate-fade-in-up"
           )}
           style={{ animationDelay: '0.5s' }}
         >

@@ -7,22 +7,22 @@ const features = [
   {
     title: "Responsive Design",
     description: "Websites that look and function beautifully across all devices, from desktops to smartphones.",
-    icon: <Code className="text-gold" size={24} />
+    icon: <Code className="text-purple-400" size={24} />
   },
   {
     title: "High Performance",
     description: "Lightning-fast load times and smooth interactions for an exceptional user experience.",
-    icon: <Rocket className="text-gold" size={24} />
+    icon: <Rocket className="text-purple-400" size={24} />
   },
   {
     title: "SEO Optimization",
     description: "Built-in best practices that help your site rank higher in search engine results.",
-    icon: <Search className="text-gold" size={24} />
+    icon: <Search className="text-purple-400" size={24} />
   },
   {
     title: "Ongoing Support",
     description: "Dedicated assistance and maintenance to keep your website running flawlessly.",
-    icon: <LifeBuoy className="text-gold" size={24} />
+    icon: <LifeBuoy className="text-purple-400" size={24} />
   }
 ];
 
@@ -31,7 +31,7 @@ const Features = () => {
     <section className="section-padding" id="features">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl mb-4">Premium <span className="text-gold">Features</span></h2>
+          <h2 className="text-2xl md:text-4xl mb-4">Premium <span className="text-purple-400">Features</span></h2>
           <p className="max-w-2xl mx-auto">
             Every website we build comes with these essential capabilities
           </p>
@@ -43,7 +43,7 @@ const Features = () => {
               key={index}
               className={cn(
                 "glass-card p-6 animate-fade-in-up",
-                "hover:border-gold/30 transition-all duration-300"
+                "hover:border-purple-400/30 transition-all duration-300"
               )}
               style={{ animationDelay: `${0.15 * index}s` }}
             >

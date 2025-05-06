@@ -39,7 +39,7 @@ const Navbar = () => {
       )}>
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-medium text-white">
-            <span className="text-gold">Lu</span>nexa
+            <span className="text-purple-400">Lu</span>nexa
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,14 +48,14 @@ const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className="text-white/80 hover:text-gold transition-colors"
+                className="text-white/80 hover:text-purple-400 transition-colors"
               >
                 {link.label}
               </Link>
             ))}
             <Link 
               to="/contact" 
-              className="neumorphic-btn text-gold" 
+              className="neumorphic-btn text-purple-400" 
             >
               Get Started
             </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               onClick={closeMenu}
-              className="text-white/80 hover:text-gold text-xl transition-colors py-2"
+              className="text-white/80 hover:text-purple-400 text-xl transition-colors py-2"
             >
               {link.label}
             </Link>
@@ -102,7 +102,7 @@ const Navbar = () => {
           <Link 
             to="/contact" 
             onClick={closeMenu}
-            className="neumorphic-btn text-gold mt-8" 
+            className="neumorphic-btn text-purple-400 mt-8" 
           >
             Get Started
           </Link>

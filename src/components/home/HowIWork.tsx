@@ -25,7 +25,7 @@ const HowIWork = () => {
     <section className="section-padding bg-navy-50" id="process">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl mb-4">The <span className="text-gold">Process</span></h2>
+          <h2 className="text-2xl md:text-4xl mb-4">The <span className="text-purple-400">Process</span></h2>
           <p className="max-w-2xl mx-auto">
             A methodical approach that ensures exceptional results for every project
           </p>
@@ -51,9 +51,9 @@ const HowIWork = () => {
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl mb-3 text-white">{step.title}</h3>
                 <p className="text-white/70 flex-1">{step.description}</p>
-                <div className="mt-4 text-gold flex justify-between items-center">
+                <div className="mt-4 text-purple-400 flex justify-between items-center">
                   <span className="text-4xl font-light">{index + 1}</span>
-                  <div className="h-[1px] flex-1 bg-gold/30 mx-3"></div>
+                  <div className="h-[1px] flex-1 bg-purple-400/30 mx-3"></div>
                 </div>
               </div>
             </div>
